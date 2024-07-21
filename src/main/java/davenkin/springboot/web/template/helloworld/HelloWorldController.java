@@ -12,7 +12,6 @@ public class HelloWorldController {
 
     @GetMapping(value = "/hello-world")
     public Map<String, String> helloWorld() throws NoResourceFoundException {
-        throw new NoResourceFoundException(HttpMethod.GET,"/hello-world");
-//        return Map.of("value", "Hello World!");
+        return Map.of("value", "Hello World!");
     }
 }
