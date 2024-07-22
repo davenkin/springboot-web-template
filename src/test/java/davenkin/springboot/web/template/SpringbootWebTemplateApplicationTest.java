@@ -18,7 +18,8 @@ class SpringbootWebTemplateApplicationTest {
 
   @Test
   void shouldSayHelloWorld() {
-    var result = this.webTestClient.get()
+    var result = this.webTestClient
+        .get()
         .uri("/hello-world")
         .exchange()
         .expectStatus()
