@@ -10,4 +10,4 @@
 
 ### Tech stack
 
-- Spring Boot 3.3.2
+- Spring Boot 3.5.3
